@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* ========(Root)============= */
+
+:root{
+    --banner-image: url("/public/assets/bannerbg.png");
+    --book-image: url("/public/assets/BookPage.png");
+}
+
+
+
+/*=====(Font_Family Start Here)==========*/
+
+/*Roboto font family*/
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(/src/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "Roboto Light";
+    src: url(/src/assets/fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "Roboto Medium";
+    src: url(/src/assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(/src/assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+/* Inter font family */
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url(/src/assets/fonts/Inter/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: "Inter Light";
+    src: url(/src/assets/fonts/Inter/Inter_18pt-Light.ttf);
+}
+@font-face {
+    font-family: "Inter Medium";
+    src: url(/src/assets/fonts/Inter/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: "Inter Bold";
+    src: url(/src/assets/fonts/Inter/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Bebas Regular";
+    src: url(/src/assets/fonts/Bebas/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url(/src/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+/* Raleway font family */
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(/src/assets/fonts/Raleway/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway Light";
+    src: url(/src/assets/fonts/Raleway/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: "Raleway Medium";
+    src: url(/src/assets/fonts/Raleway/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(/src/assets/fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Raleway ExtraBold";
+    src: url(/src/assets/fonts/Raleway/Raleway-ExtraBold.ttf);
+}
+/*=====(Font_Family End Here)==========*/
+
+
+.custom-w-39 {
+    width: 39%;
+}
+.custom-w-60 {
+    width: 60%;
+}
+
+.add {
+    background-image: url('/public/assets/Footer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.sticky-navbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; /* Ensure no horizontal scrolling */
+}
